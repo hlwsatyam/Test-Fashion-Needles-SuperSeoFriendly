@@ -1,0 +1,22 @@
+{
+  "node": {
+    "c6de5ee60001a90b7e4193fcf6cb1429597b9b72": {
+      "workers": {
+        "app/(user)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5Csss%5C%5Cfasion-needles%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(user)/page": "action-browser"
+      }
+    },
+    "5c4e1ed4f94c58ac8af3542a954e244aa118512f": {
+      "workers": {
+        "app/(user)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5Csss%5C%5Cfasion-needles%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(user)/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "FVE4tv+qPqtcfvjm7Vu2dDuLeQWCEfi3PP+W83STDlg="
+}
