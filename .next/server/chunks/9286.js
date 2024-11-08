@@ -1,0 +1,1 @@
+"use strict";exports.id=9286,exports.ids=[9286],exports.modules={9286:(e,d,i)=>{i.r(d),i.d(d,{default:()=>o});var s=i(20610),t=i(90509);let r=(0,s.ZP)(t.Z)(({theme:e})=>({"& .card-main":{padding:e.spacing(2),borderWidth:"1px 0 0 0","& .delete-icon":{fontSize:20}},[e.breakpoints.up("sm")]:{display:"none"}})),o=r}};
