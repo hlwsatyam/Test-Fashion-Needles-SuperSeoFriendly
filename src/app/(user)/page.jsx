@@ -24,13 +24,13 @@ export default async function IndexPage() {
         </Suspense>
       </Container>
       <Hero />
-      <Container fixed>
+      <Container  >
       <Categories />
         <Suspense>
           <TopCollections />
         </Suspense>
+        <TopBanners />
       </Container>
-      <TopBanners />
       <Container fixed>
         <Suspense>
           <BestSeller />

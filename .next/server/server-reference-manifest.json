@@ -1,54 +1,26 @@
 {
   "node": {
-    "faf7cff44ce9182e7c26d62d02a36748c05fa949": {
-      "workers": {
-        "app/not-found": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(admin)/dashboard/orders/[oid]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(admin)/dashboard/orders/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/profile/wishlist/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/profile/orders/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/order/[oid]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(admin)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/not-found": "action-browser",
-        "app/(admin)/dashboard/orders/[oid]/page": "action-browser",
-        "app/(user)/page": "action-browser",
-        "app/(admin)/dashboard/orders/page": "action-browser",
-        "app/(user)/profile/page": "action-browser",
-        "app/(user)/profile/wishlist/page": "action-browser",
-        "app/(user)/profile/orders/page": "action-browser",
-        "app/(user)/order/[oid]/page": "action-browser",
-        "app/(admin)/dashboard/page": "action-browser"
-      }
-    },
     "09b4244179f7a0f3b9d7cf41d859edb0dedba445": {
       "workers": {
-        "app/not-found": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(admin)/dashboard/orders/[oid]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(admin)/dashboard/orders/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/profile/wishlist/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/profile/orders/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(user)/order/[oid]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!",
-        "app/(admin)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22createCookies%22%2C%22deleteCookies%22%5D%5D%5D&__client_imported__=true!"
+        "app/(user)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22deleteCookies%22%2C%22createCookies%22%5D%5D%5D&__client_imported__=true!",
+        "app/(user)/auth/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22deleteCookies%22%2C%22createCookies%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/not-found": "action-browser",
-        "app/(admin)/dashboard/orders/[oid]/page": "action-browser",
         "app/(user)/page": "action-browser",
-        "app/(admin)/dashboard/orders/page": "action-browser",
-        "app/(user)/profile/page": "action-browser",
-        "app/(user)/profile/wishlist/page": "action-browser",
-        "app/(user)/profile/orders/page": "action-browser",
-        "app/(user)/order/[oid]/page": "action-browser",
-        "app/(admin)/dashboard/page": "action-browser"
+        "app/(user)/auth/login/page": "action-browser"
+      }
+    },
+    "faf7cff44ce9182e7c26d62d02a36748c05fa949": {
+      "workers": {
+        "app/(user)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22deleteCookies%22%2C%22createCookies%22%5D%5D%5D&__client_imported__=true!",
+        "app/(user)/auth/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cfashi%5C%5COneDrive%5C%5CDesktop%5C%5Ccodecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script%5C%5Ccommercehope%5C%5CFrontendWithServer%5C%5Csrc%5C%5Chooks%5C%5Ccookies.js%22%2C%5B%22deleteCookies%22%2C%22createCookies%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(user)/page": "action-browser",
+        "app/(user)/auth/login/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "euDZh69bbT9+wbU9cGGrOCD25zLRVcJl8ZJlMkc/KvA="
+  "encryptionKey": "d0ZRH1M2Nnjy2IpnA4MEH0ufYggdiPp0BYYWDZMl/w4="
 }

@@ -6,16 +6,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(admin)/dashboard/layout": [
+    "/(user)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(admin)/dashboard/layout.css",
-      "static/chunks/app/(admin)/dashboard/layout.js"
-    ],
-    "/(admin)/dashboard/orders/[oid]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(admin)/dashboard/orders/[oid]/page.js"
+      "static/chunks/app/(user)/layout.js"
     ],
     "/(user)/page": [
       "static/chunks/webpack.js",
@@ -23,50 +17,15 @@
       "static/css/app/(user)/page.css",
       "static/chunks/app/(user)/page.js"
     ],
-    "/(user)/layout": [
+    "/(user)/auth/login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(user)/layout.js"
+      "static/chunks/app/(user)/auth/login/page.js"
     ],
-    "/(admin)/dashboard/orders/page": [
+    "/(user)/auth/login/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(admin)/dashboard/orders/page.js"
-    ],
-    "/(user)/profile/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(user)/profile/layout.js"
-    ],
-    "/(user)/profile/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(user)/profile/page.js"
-    ],
-    "/(user)/profile/wishlist/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(user)/profile/wishlist/page.js"
-    ],
-    "/(user)/profile/orders/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(user)/profile/orders/page.js"
-    ],
-    "/(user)/profile/orders/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(user)/profile/orders/loading.js"
-    ],
-    "/(user)/order/[oid]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(user)/order/[oid]/page.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/(user)/auth/login/loading.js"
     ]
   }
 }

@@ -325,7 +325,7 @@ export default function SingleSlideCarousel({ ...props }) {
             />
           </motion.div>
         </AnimatePresence>
-        
+      
       )}
       {data.length && (
         <Actions active={imageIndex} themeMode={themeMode} setPage={setPage} paginate={paginate} data={data} />

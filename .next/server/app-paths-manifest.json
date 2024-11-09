@@ -1,9 +1,4 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(admin)/dashboard/orders/[oid]/page": "app/(admin)/dashboard/orders/[oid]/page.js",
-  "/(admin)/dashboard/orders/page": "app/(admin)/dashboard/orders/page.js",
-  "/(user)/order/[oid]/page": "app/(user)/order/[oid]/page.js",
-  "/(admin)/dashboard/page": "app/(admin)/dashboard/page.js",
-  "/(user)/profile/page": "app/(user)/profile/page.js",
-  "/(user)/profile/orders/page": "app/(user)/profile/orders/page.js"
+  "/(user)/page": "app/(user)/page.js",
+  "/(user)/auth/login/page": "app/(user)/auth/login/page.js"
 }
