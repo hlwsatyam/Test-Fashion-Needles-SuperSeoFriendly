@@ -19,6 +19,7 @@ Details.propTypes = {
 
 export default function Details({ ...props }) {
   const { data, isLoading } = props;
+  console.log(data)
   const user = data?.user;
   return (
     <RootStyled>
@@ -110,7 +111,7 @@ export default function Details({ ...props }) {
                         <strong>Payment ID</strong>: {data?.paymentId}
                       </Typography>
                     )}
-                    v
+                   
                     <Typography variant="body2" textTransform="capitalize">
                       <strong>Delivery Status</strong>: {data?.status}
                     </Typography>

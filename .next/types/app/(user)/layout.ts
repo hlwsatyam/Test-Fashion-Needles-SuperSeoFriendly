@@ -1,4 +1,4 @@
-// File: C:\Users\fashi\OneDrive\Desktop\codecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script\commercehope\sss\fasion-needles\src\app\(user)\layout.jsx
+// File: C:\Users\fashi\OneDrive\Desktop\codecanyon-yj1ceCeE-commercehope-reactjs-ecommerce-script\commercehope\FrontendWithServer\src\app\(user)\layout.jsx
 import * as entry from '../../../../src/app/(user)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,8 +1,10 @@
 import axios from "axios";
+const baseUrl ="https://api.fashionneedles.com"
+// const baseUrl ="http://localhost:3001"
 
 export const initiatePayment = async (amount,orderId) => {
   try {
-    const response = await axios.get(`http://localhost:3000/api/pay`, { 
+    const response = await axios.get(`${baseUrl}/api/pay`, { 
         params: { amount,orderId }
       });
 

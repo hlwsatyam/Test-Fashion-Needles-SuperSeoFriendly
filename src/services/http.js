@@ -1,4 +1,6 @@
 import axios from 'axios';
+//  const baseUrl ="http://localhost:3001"
+ const baseUrl ="https://api.fashionneedles.com"
 
 function getToken() {
   const cname = 'token';
@@ -20,7 +22,7 @@ function getToken() {
   return '';
 }
 
-const baseURL = 'http://localhost:3000';
+const baseURL = baseUrl
 // const baseURL = process.env.BASE_URL;
 const http = axios.create({
   baseURL: baseURL + '/api',

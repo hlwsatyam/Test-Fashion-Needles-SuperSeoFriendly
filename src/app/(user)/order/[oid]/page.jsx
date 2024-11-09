@@ -5,6 +5,9 @@ import { Container, Typography, Box, Grid, Stack } from '@mui/material';
 import OrderDetails from 'src/components/_main/orders/orderDetails';
 import TableCard from 'src/components/table/order';
 
+// const baseUrl ="http://localhost:3001"
+ const baseUrl ="https://api.fashionneedles.com"
+
 // Meta information
 export const metadata = {
   title: 'Order Confirmation | fasion needles - Your Order Has Been Successfully Placed',
@@ -18,7 +21,7 @@ export const metadata = {
 
 export default async function OrderMain({ params }) {
   const { oid } = params;
-  const response = await fetch(process.env.BASE_URL + '/api/orders/' + oid).then((res) => res.json());
+  const response = await fetch(baseUrl + '/api/orders/' + oid).then((res) => res.json());
   if (!response) {
     notFound();
   }

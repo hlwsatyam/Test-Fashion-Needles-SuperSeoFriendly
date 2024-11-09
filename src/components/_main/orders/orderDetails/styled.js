@@ -10,7 +10,7 @@ const RootStyled = styled(Box)(({ theme }) => ({
     color: theme.palette.common.white,
     zIndex: 0,
     '&:before': {
-      content: '',
+      content: '""',
       position: 'absolute',
       top: '-20%',
       left: '40%',

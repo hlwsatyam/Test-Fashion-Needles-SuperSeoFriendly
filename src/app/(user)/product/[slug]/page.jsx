@@ -11,15 +11,18 @@ import ProductAdditionalInfo from 'src/components/_main/product/additionalInfo';
 import ProductDetailsCarousel from 'src/components/carousels/details';
 import ProductDetailsSumary from 'src/components/_main/product/summary';
 import HeaderBreadcrumbs from 'src/components/headerBreadcrumbs';
+import axios from 'axios';
+//  const baseUrl ="http://localhost:3001"
+const baseUrl ="https://api.fashionneedles.com"
 export async function generateStaticParams() {
-  const { data } = await fetch('http://localhost:3000' + '/api/products-slugs').then((res) => res.json());
+  const { data } = await fetch(baseUrl+ '/api/products-slugs').then((res) => res.json());
   return data?.map((product) => ({
     slug: product.slug
   }));
 }
 
 export async function generateMetadata({ params }) {
-  const { data: response } = await fetch('http://localhost:3000' + '/api/products/' + params.slug).then((res) =>
+  const { data: response } = await fetch(baseUrl+ '/api/products/' + params.slug).then((res) =>
     res.json()
   );
  
@@ -35,7 +38,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function ProductDetail({ params: { slug } }) {
-  const response = await fetch('http://localhost:3000' + '/api/products/' + slug).then((res) => res.json());
+  const response = await fetch(baseUrl + '/api/products/' + slug).then((res) => res.json());
   if (!response) {
     notFound();
   }

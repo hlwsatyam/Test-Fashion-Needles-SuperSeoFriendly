@@ -7,9 +7,11 @@ import Container from '@mui/material/Container';
 import Filter from 'src/components/_main/products/filters';
 import HeaderBreadcrumbs from 'src/components/headerBreadcrumbs';
 import ProductList from 'src/components/_main/products';
+import axios from 'axios';
+ const baseUrl ="http://localhost:3001"
 
 export async function generateStaticParams() {
-  const { data } = await fetch('http://localhost:3000' + '/api/subcategories-slugs').then((res) => res.json());
+  const { data } = await fetch(baseUrl + '/api/subcategories-slugs').then((res) => res.json());
   return data?.map((cat) => ({
     subCategory: cat.slug,
     category: cat.parentCategory.slug
@@ -17,7 +19,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const { data: response } = await fetch('http://localhost:3000'  + '/api/subcategories/' + params.subCategory).then(
+  const { data: response } = await fetch(baseUrl + '/api/subcategories/' + params.subCategory).then(
     (res) => res.json()
   );
   // const images = category.images.map((img) => img.url);
@@ -33,7 +35,7 @@ export async function generateMetadata({ params }) {
 
 export default async function Listing({ params }) {
   const { category, subCategory } = params;
-  const response = await fetch('http://localhost:3000'  + `/api/subcategory-title/${subCategory}`).then((res) =>
+  const response = await fetch(baseUrl + `/api/subcategory-title/${subCategory}`).then((res) =>
     res.json()
   );
   if (!response) {

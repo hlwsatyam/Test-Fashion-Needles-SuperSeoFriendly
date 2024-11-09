@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3092],{63092:function(e,n,t){t.r(n);var a=t(35843),i=t(96507);let p=(0,a.ZP)(i.Z)(e=>{let{theme:n}=e;return{"& .card-main":{padding:n.spacing(2),borderWidth:"1px 0 0 0","& .delete-icon":{fontSize:20}},[n.breakpoints.up("sm")]:{display:"none"}}});n.default=p}}]);

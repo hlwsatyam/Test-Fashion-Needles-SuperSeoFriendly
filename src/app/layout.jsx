@@ -1,12 +1,15 @@
-import * as React from 'react';
-import Providers from 'src/lib/providers';
-import { cookies } from 'next/headers';
+ 
+import * as React from "react";
+import Providers from "src/lib/providers";
+import { cookies } from "next/headers";
+ export const baseUrl= "http://localhost:3001";
 export default async function RootLayout({ children }) {
+
   const cookiesList = cookies();
-  const hasCookie = cookiesList.get('token');
+  const hasCookie = cookiesList.get("token");
 
   return (
-    <html lang={'en-US'}>
+    <html lang={"en-US"}>
       <body>
         <Providers isAuth={hasCookie}>{children}</Providers>
       </body>

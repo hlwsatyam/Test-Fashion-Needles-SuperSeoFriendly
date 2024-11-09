@@ -8,6 +8,8 @@ import { BsHouseHeart } from 'react-icons/bs';
 import { LiaShippingFastSolid } from 'react-icons/lia';
 import { MdOutlineDeleteOutline } from 'react-icons/md';
 import { TbTruckDelivery } from 'react-icons/tb';
+//  const baseUrl ="http://localhost:3001"
+ const baseUrl ="https://api.fashionneedles.com"
 
 function TrackDelevery() {
   const path = window.location.pathname;
@@ -21,7 +23,7 @@ function TrackDelevery() {
   });
   const checkAvailibility = async () => {
     try {
-      const res = await axios.get(`http://localhost:3000/api/checkDelivery/${orderId}`);
+      const res = await axios.get(`${baseUrl}/api/checkDelivery/${orderId}`);
       if (res.status === 200) {
         toast.success(res.data.message);
       } else {
@@ -34,7 +36,7 @@ function TrackDelevery() {
   
   const createWharehouse = async () => {
     try {
-      const res = await axios.get(`http://localhost:3000/api/createWharehouse`);
+      const res = await axios.get(`${baseUrl}/api/createWharehouse`);
       if (res.status === 200) {
         toast.success(res.data.message);
       } else {
@@ -47,7 +49,7 @@ function TrackDelevery() {
 
   const createShipment = async () => {
     try {
-      const res = await axios.post(`http://localhost:3000/api/createShipment/${orderId}`, shipmentDimension);
+      const res = await axios.post(`${baseUrl}/api/createShipment/${orderId}`, shipmentDimension);
       if (res.status === 200) {
         toast.success(res.data.message);
         setModalOpen(false);
