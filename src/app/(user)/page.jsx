@@ -17,8 +17,9 @@ import TopBanners from 'src/components/_main/home/topBanners';
 export default async function IndexPage() {
   return (
     <>
-      <Slider />
+  
       <Container fixed>
+      <Slider />
         <Suspense>
           <Brands />
         </Suspense>

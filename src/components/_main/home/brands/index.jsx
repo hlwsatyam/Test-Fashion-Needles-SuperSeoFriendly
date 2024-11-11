@@ -18,7 +18,7 @@ export default async function Brands() {
   return (
     <Box
       sx={{
-        mt: 6,
+        mt: 2,
         display: { md: 'block', xs: 'none' }
       }}
     >

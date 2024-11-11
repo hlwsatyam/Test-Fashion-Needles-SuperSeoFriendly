@@ -106,7 +106,7 @@ const termsAndConditions = [
 
 const TermsPage = () => {
   return (
-    <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
+    <Container  >
       <Typography variant="h3" align="center" gutterBottom>
         Terms and Conditions
       </Typography>

@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { Box, Typography, Divider } from "@mui/material";
+import { Box, Typography, Divider, Container } from "@mui/material";
 
 const PrivacyPolicy = () => {
   return (
-    <Box sx={{ padding: "2rem", backgroundColor: "#f9f9f9", color: "#333", lineHeight: "1.8" }}>
+    <Container sx={{  backgroundColor: "#f9f9f9", color: "#333", lineHeight: "1.8" }}>
       <Typography variant="h2" sx={{ fontWeight: "bold", mb: 3, textAlign: "center" }}>
         Privacy Policy for Fashion Needles
       </Typography>
@@ -172,7 +172,7 @@ const PrivacyPolicy = () => {
         If you have questions or concerns regarding this Privacy Policy, please reach out to us at{" "}
         <a href="mailto:privacy@fashionneedles.com">privacy@fashionneedles.com</a>.
       </Typography>
-    </Box>
+    </Container>
   );
 };
 

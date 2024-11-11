@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { Box, Typography, List, ListItem, Divider } from "@mui/material";
+import { Box, Typography, List, ListItem, Divider, Container } from "@mui/material";
 
 const CancellationPolicy = () => {
   return (
-    <Box sx={{ padding: "2rem", backgroundColor: "#f9f9f9", color: "#333", lineHeight: "1.8" }}>
+    <Container sx={{  backgroundColor: "#f9f9f9", color: "#333", lineHeight: "1.8" }}>
       <Typography variant="h2" sx={{ fontWeight: "bold", mb: 3, textAlign: "center" }}>
         Fashion Needles Cancellation & Return Policy
       </Typography>
@@ -181,7 +181,7 @@ const CancellationPolicy = () => {
         Should you have any questions or need further assistance, please feel free to reach out to our customer service
         team at <a href="mailto:support@fashionneedles.com">support@fashionneedles.com</a>.
       </Typography>
-    </Box>
+    </Container>
   );
 };
 

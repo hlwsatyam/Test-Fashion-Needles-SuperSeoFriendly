@@ -4,7 +4,7 @@ import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 
 function PaymentFailed() {
   return (
-    <Container maxWidth="sm">
+    <Container  >
       <Box
         display="flex"
         flexDirection="column"

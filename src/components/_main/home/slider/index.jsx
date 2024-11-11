@@ -23,7 +23,7 @@ const BannerCarousel = ({
     slidesToShow: 1,
     slidesToScroll: 1,
     appendDots: (dots) => (
-      <Box sx={{ padding: "10px", position: "absolute", bottom: "10px", left: "50%", transform: "translateX(-50%)" }}>
+      <Box sx={{   position: "absolute", bottom: "10px", left: "50%", transform: "translateX(-50%)" }}>
         <ul style={{ margin: 0, display: 'flex', justifyContent: 'center', listStyleType: 'none' }}>
           {dots}
         </ul>
@@ -49,10 +49,10 @@ const BannerCarousel = ({
   };
 
   return (
-    <Box sx={{ width: '100%',padding:'15px', margin: 'auto', overflow: 'hidden', position: 'relative' }}>
+    <Box sx={{ width: '100%', margin: 'auto', overflow: 'hidden', position: 'relative' }}>
       <Slider {...settings}>
         {banners.map((banner, index) => (
-          <Box key={index} sx={{ width: '100%', height: { xs: '200px', sm: '300px', md: '80vh' }, position: 'relative' }}>
+          <Box key={index} sx={{ width: '100%', height: { xs: '200px', sm: '300px', md: '70vh' }, position: 'relative' }}>
             <Image
               src={banner.image}
               alt={`Slide ${index + 1}`}

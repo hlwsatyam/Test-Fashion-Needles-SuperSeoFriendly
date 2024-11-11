@@ -43,7 +43,8 @@ const SOCIAL_MEDIA_LINK = [
 
 export default function Footer() {
   return (
-    <Box
+    <Container>
+       <Box
       sx={{
         // bgcolor: (theme) => alpha(theme.palette.secondary.main, 0.2),
         bgcolor: 'background.paper',
@@ -195,6 +196,8 @@ export default function Footer() {
           </Typography>
         </Stack>
       </Container>
-    </Box>
+    </Box>  
+    </Container>
+ 
   );
 }

@@ -53,7 +53,7 @@ const faqs = [
 
 const FAQPage = () => {
   return (
-    <Container maxWidth="xl" sx={{ mt: 4 }}>
+    <Container  >
       <Typography variant="h3" align="center" gutterBottom>
         Frequently Asked Questions
       </Typography>

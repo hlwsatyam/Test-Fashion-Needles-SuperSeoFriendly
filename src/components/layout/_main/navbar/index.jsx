@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import dynamic from 'next/dynamic';
 // mui
 import { alpha } from '@mui/material/styles';
-import { Toolbar, Skeleton, Stack, AppBar, useMediaQuery } from '@mui/material';
+import { Toolbar, Skeleton, Stack, AppBar, useMediaQuery, Container } from '@mui/material';
 // redux
 import { useSelector } from 'react-redux';
 
@@ -65,7 +65,7 @@ export default function Navbar({ isAuth }) {
   const isMobile = useMediaQuery('(max-width:768px)');
   const { data, isLoading } = useQuery(['get-categories-all'], () => api.getAllCategories());
   return (
-    <>
+    <Container>
       <AppBar
         sx={{
           boxShadow: 'none',
@@ -104,7 +104,7 @@ export default function Navbar({ isAuth }) {
       </AppBar>
       {isMobile && <MobileBar />}
       {data?.adminPopup && <AdminDialog isOpen={data?.adminPopup} />}
-    </>
+    </Container>
   );
 }
 Navbar.propTypes = {
