@@ -5,14 +5,15 @@ import numeral from 'numeral';
 
 const locale = 'en-US';
 export function fCurrency(number) {
-  const currency = new Intl.NumberFormat(locale, {
+  const currency = new Intl.NumberFormat('en-IN', {
     style: 'currency',
-    currency: process.env.CURRENCY || 'USD'
+    currency: 'INR',
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2
   });
 
-  return currency.format(number).slice(0, -1);
+  return currency.format(number);
 }
-
 export function fPercent(number) {
   return numeral(number / 100).format('0.0%');
 }

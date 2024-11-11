@@ -5,7 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const nextConfig = {
    
   reactStrictMode: true,
-  swcMinify: true,
+  swcMinify: false,
   webpack: (config) => {
     config.resolve.fallback = { fs: false };
     return config;
@@ -21,9 +21,21 @@ const nextConfig = {
     // JWT_SECRET: process.env.JWT_SECRET,
     // PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID
   },
+  devIndicators: {
+    autoPrerender: false, // Turn off auto pre-rendering notifications
+  },
+  compiler: {
+    styledComponents: true,
+  },
+  compiler: {
+    removeConsole: true,
+  },
   images: {
     domains: ['fasion needles-app.vercel.app"', 'res.cloudinary.com']
-  }
+  },
+  experimental: {
+    swcTraceProfiling: true,
+  },
 };
 
 module.exports = withBundleAnalyzer(nextConfig);

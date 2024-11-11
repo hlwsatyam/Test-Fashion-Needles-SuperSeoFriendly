@@ -8,8 +8,10 @@ import { Container } from "@mui/material";
 
 export default function Hero() {
   return (
-    <Container>
-      <SingleSlideCarousel data={data} />;
+    <Container sx={{
+      height: "35vh", 
+    }}  >
+      <SingleSlideCarousel data={data} />
     </Container>
   );
 }

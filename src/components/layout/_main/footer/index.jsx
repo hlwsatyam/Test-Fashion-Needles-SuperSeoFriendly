@@ -140,7 +140,7 @@ export default function Footer() {
 
                   <Stack spacing={1}>
                     {section.children.map((link, linkIndex) => (
-                      <NextLink key={linkIndex} href={link.href} passHref>
+                      <NextLink prefetch key={linkIndex} href={link.href} passHref>
                         <Typography
                           variant="body2"
                           color="text.secondary"

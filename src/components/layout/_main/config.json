@@ -111,20 +111,20 @@
     {
       "headline": "Product",
       "children": [
-        { "name": "Track Order", "href": "track-order" },
-        { "name": "Careers", "href": "careers" },
+        { "name": "Track Order", "href": "/track-order" },
+        { "name": "Careers", "href": "/careers" },
         { "name": "Whatsapp", "href": "https://wa.link/y74jkl" }
       ]
     },
     {
       "headline": "Policies",
       "children": [
-        { "name": "FAQ", "href": "faqs" },
-        { "name": "T&C", "href": "tac" },
+        { "name": "FAQ", "href": "/faqs" },
+        { "name": "T&C", "href": "/tac" },
 
-        { "name": "Cancellation Policy", "href": "cancellationpolicy" },
-        { "name": "Returns", "href": "returns" },
-        { "name": "Privacy Policy", "href": "privacypolicy" }
+        { "name": "Cancellation Policy", "href": "/cancellationpolicy" },
+ 
+        { "name": "Privacy Policy", "href": "/privacypolicy" }
       ]
     }
   ]

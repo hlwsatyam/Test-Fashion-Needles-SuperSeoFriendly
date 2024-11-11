@@ -7,7 +7,7 @@ import slide8 from '../../../../../public/images/slide-8.png';
 export const data = [
   {
     cover: slide1,
-    heading: 'Trendy Summer Dresses for Girls',
+    heading: 'Dresses for Girls',
     description:
       'Discover our collection of stylish summer dresses that combine comfort and fashion, perfect for any occasion.',
     color: '#FF6F61', // Coral color
@@ -36,7 +36,7 @@ export const data = [
   },
   {
     cover: slide5,
-    heading: 'Chic Casual Wear for Women',
+    heading: 'Wear for Women',
     description: 'Elevate your everyday style with our selection of chic and comfortable casual outfits for women.',
     color: '#F7B733', // Yellow-orange color
     btnPrimary: {
@@ -50,7 +50,7 @@ export const data = [
   },
   {
     cover: slide8,
-    heading: 'Men’s Stylish Footwear',
+    heading: 'Stylish Footwear',
     description: 'Step out in style with our collection of trendy footwear designed for the modern man.',
     color: '#4A90E2', // Blue color
     btnPrimary: {
@@ -64,7 +64,7 @@ export const data = [
   },
   {
     cover: slide6,
-    heading: 'Elegant Watches for Every Occasion',
+    heading: 'Watches for Occasion',
     description: 'Discover our exquisite selection of watches that blend elegance and functionality for any occasion.',
     color: '#50E3C2', // Teal color
     btnPrimary: {

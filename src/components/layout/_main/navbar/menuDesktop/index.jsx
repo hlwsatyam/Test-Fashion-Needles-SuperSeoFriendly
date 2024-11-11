@@ -1,16 +1,16 @@
-import React, { useMemo } from 'react';
-import PropTypes from 'prop-types';
-import { useState, useEffect } from 'react';
-import KeyboardArrowUpRoundedIcon from '@mui/icons-material/KeyboardArrowUpRounded';
-import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
+import React, { useMemo } from "react";
+import PropTypes from "prop-types";
+import { useState, useEffect } from "react";
+import KeyboardArrowUpRoundedIcon from "@mui/icons-material/KeyboardArrowUpRounded";
+import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownRounded";
 // next
-import { useRouter } from 'next-nprogress-bar';
+import { useRouter } from "next-nprogress-bar";
 // material
-import typography from 'src/theme/typography';
-import { Link, Stack } from '@mui/material';
-import NextLink from 'next/link';
+import typography from "src/theme/typography";
+import { Link, Stack } from "@mui/material";
+import NextLink from "next/link";
 // components
-import MenuDesktopPopover from 'src/components/popover/menudesktop';
+import MenuDesktopPopover from "src/components/popover/menudesktop";
 
 // ----------------------------------------------------------------------
 
@@ -33,163 +33,142 @@ function MenuDesktopItem({ ...props }) {
   const { title, path, isDropdown } = item;
   const anchorRef = React.useRef(null);
   const isActive = pathname === path;
-  const[isMenOpen, setIsMenOpen] = useState(false)
-  const [isWomanOpen, setIsWomanOpen] = useState(false)
-  const [isKidsOpen, setIsKidsOpen] = useState(false)
-  const [isAccessoriesOpen, setIsAccessoriesOpen] = useState(false)
+  const [isMenOpen, setIsMenOpen] = useState(false);
+  const [isWomanOpen, setIsWomanOpen] = useState(false);
+  const [isKidsOpen, setIsKidsOpen] = useState(false);
+  const [isAccessoriesOpen, setIsAccessoriesOpen] = useState(false);
 
   if (isDropdown) {
     return (
       <>
         <Link
           ref={anchorRef}
-          className={` ${isOffset && isHome && 'offset'}`}
+          className={` ${isOffset && isHome && "offset"}`}
           id="composition-button"
-          aria-controls={isOpen ? 'composition-menu' : undefined}
-          aria-expanded={isOpen ? 'true' : undefined}
+          aria-controls={isOpen ? "composition-menu" : undefined}
+          aria-expanded={isOpen ? "true" : undefined}
           aria-haspopup="true"
-          onClick={(w)=>{
-            onOpen(w)
-            setIsMenOpen(true)
-            s()
+          onClick={(w) => {
+            onOpen(w);
+            setIsMenOpen(true);
+            s();
             function s() {
-              localStorage.setItem('category', 'Men')
+              localStorage.setItem("category", "Men");
             }
           }}
           sx={{
-            display: 'flex',
-            cursor: 'pointer',
-            alignItems: 'center',
+            display: "flex",
+            cursor: "pointer",
+            alignItems: "center",
             ...typography.subtitle2,
-            color: 'text.primary',
-            textDecoration: 'none',
+            color: "text.primary",
+            textDecoration: "none",
             fontWeight: 500,
-            transition: '.2s ease-in',
-            cursor: 'pointer',
-            '&:hover': {
-              color: 'primary.main',
-              textDecoration: 'none'
+            transition: ".2s ease-in",
+            cursor: "pointer",
+            "&:hover": {
+              color: "primary.main",
+              textDecoration: "none"
             },
-            '&.offset': {
-              color: 'text.primary'
+            "&.offset": {
+              color: "text.primary"
             },
-            '&.active': {
-              color: 'primary.main'
+            "&.active": {
+              color: "primary.main"
             },
-            '& .link-icon': {
+            "& .link-icon": {
               ml: 0.5,
               fontSize: 16
             }
           }}
         >
-          <>
-            Men
-            {isMenOpen ? (
-              <KeyboardArrowUpRoundedIcon className="link-icon" />
-            ) : (
-              <KeyboardArrowDownRoundedIcon className="link-icon" />
-            )}
-          </>
+          Men
         </Link>
         <Link
           ref={anchorRef}
-          className={` ${isOffset && isHome && 'offset'}`}
+          className={` ${isOffset && isHome && "offset"}`}
           id="composition-button"
-          aria-controls={isOpen ? 'composition-menu' : undefined}
-          aria-expanded={isOpen ? 'true' : undefined}
+          aria-controls={isOpen ? "composition-menu" : undefined}
+          aria-expanded={isOpen ? "true" : undefined}
           aria-haspopup="true"
-          onClick={(w)=>{
-            onOpen(w)
-            s()
+          onClick={(w) => {
+            onOpen(w);
+            s();
             function s() {
-              localStorage.setItem('category', 'Woman')
+              localStorage.setItem("category", "Woman");
             }
           }}
           sx={{
-            display: 'flex',
-            cursor: 'pointer',
-            alignItems: 'center',
+            display: "flex",
+            cursor: "pointer",
+            alignItems: "center",
             ...typography.subtitle2,
-            color: 'text.primary',
-            textDecoration: 'none',
+            color: "text.primary",
+            textDecoration: "none",
             fontWeight: 500,
-            transition: '.2s ease-in',
-            cursor: 'pointer',
-            '&:hover': {
-              color: 'primary.main',
-              textDecoration: 'none'
+            transition: ".2s ease-in",
+            cursor: "pointer",
+            "&:hover": {
+              color: "primary.main",
+              textDecoration: "none"
             },
-            '&.offset': {
-              color: 'text.primary'
+            "&.offset": {
+              color: "text.primary"
             },
-            '&.active': {
-              color: 'primary.main'
+            "&.active": {
+              color: "primary.main"
             },
-            '& .link-icon': {
+            "& .link-icon": {
               ml: 0.5,
               fontSize: 16
             }
           }}
         >
-          <>
-            Woman
-            {isWomanOpen ? (
-              <KeyboardArrowUpRoundedIcon className="link-icon" />
-            ) : (
-              <KeyboardArrowDownRoundedIcon className="link-icon" />
-            )}
-          </>
+          Woman
         </Link>
         <Link
           ref={anchorRef}
-          className={` ${isOffset && isHome && 'offset'}`}
+          className={` ${isOffset && isHome && "offset"}`}
           id="composition-button"
-          aria-controls={isOpen ? 'composition-menu' : undefined}
-          aria-expanded={isOpen ? 'true' : undefined}
+          aria-controls={isOpen ? "composition-menu" : undefined}
+          aria-expanded={isOpen ? "true" : undefined}
           aria-haspopup="true"
-          onClick={(w)=>{
-            onOpen(w)
-            s()
+          onClick={(w) => {
+            onOpen(w);
+            s();
             function s() {
-              localStorage.setItem('category', 'accessories')
+              localStorage.setItem("category", "accessories");
             }
           }}
           sx={{
-            display: 'flex',
-            cursor: 'pointer',
-            alignItems: 'center',
+            display: "flex",
+            cursor: "pointer",
+            alignItems: "center",
             ...typography.subtitle2,
-            color: 'text.primary',
-            textDecoration: 'none',
+            color: "text.primary",
+            textDecoration: "none",
             fontWeight: 500,
-            transition: '.2s ease-in',
-            cursor: 'pointer',
-            '&:hover': {
-              color: 'primary.main',
-              textDecoration: 'none'
+            transition: ".2s ease-in",
+            cursor: "pointer",
+            "&:hover": {
+              color: "primary.main",
+              textDecoration: "none"
             },
-            '&.offset': {
-              color: 'text.primary'
+            "&.offset": {
+              color: "text.primary"
             },
-            '&.active': {
-              color: 'primary.main'
+            "&.active": {
+              color: "primary.main"
             },
-            '& .link-icon': {
+            "& .link-icon": {
               ml: 0.5,
               fontSize: 16
             }
           }}
         >
-          <>
-            Accessories
-            {isWomanOpen ? (
-              <KeyboardArrowUpRoundedIcon className="link-icon" />
-            ) : (
-              <KeyboardArrowDownRoundedIcon className="link-icon" />
-            )}
-          </>
+          Accessories
         </Link>
-        
+
         <MenuDesktopPopover
           isOpen={isOpen}
           scrollPosition={scrollPosition}
@@ -207,25 +186,25 @@ function MenuDesktopItem({ ...props }) {
       key={title}
       href={path}
       name={title}
-      className={` ${isActive && 'active'}`}
+      className={` ${isActive && "active"}`}
       sx={{
         ...typography.subtitle2,
-        color: 'text.primary',
-        textDecoration: 'none',
+        color: "text.primary",
+        textDecoration: "none",
         fontWeight: 500,
-        transition: '.2s ease-in',
-        cursor: 'pointer',
-        '&:hover': {
-          color: 'primary.main',
-          textDecoration: 'none'
+        transition: ".2s ease-in",
+        cursor: "pointer",
+        "&:hover": {
+          color: "primary.main",
+          textDecoration: "none"
         },
-        '&.offset': {
-          color: 'text.primary'
+        "&.offset": {
+          color: "text.primary"
         },
-        '&.active': {
-          color: 'primary.main'
+        "&.active": {
+          color: "primary.main"
         },
-        '& .link-icon': {
+        "& .link-icon": {
           ml: 0.5,
           fontSize: 16
         }
@@ -249,9 +228,9 @@ export default function MenuDesktop({ ...props }) {
     function updatePosition() {
       setPosition(window.pageYOffset);
     }
-    window.addEventListener('scroll', updatePosition);
+    window.addEventListener("scroll", updatePosition);
     updatePosition();
-    return () => window.removeEventListener('scroll', updatePosition);
+    return () => window.removeEventListener("scroll", updatePosition);
   }, []);
 
   useEffect(() => {
